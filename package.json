@@ -1,0 +1,34 @@
+{
+  "name": "rollup-starter",
+  "version": "1.0.0",
+  "description": "A starter pack for bundling projects with rollup.js",
+  "scripts": {
+    "watch": "rollup -c -w",
+    "start": "serve dist",
+    "build": "rollup -c",
+    "dev": "npm-run-all --parallel start watch"
+  },
+  "keywords": [],
+  "author": "RGitau <info@rodgersgitau.design>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "autoprefixer": "^9.6.0",
+    "core-js": "^3.1.4",
+    "node-sass": "^4.12.0",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^1.16.4",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-cleaner": "^1.0.0",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-terser": "^5.1.0",
+    "rollup-plugin-uglify": "^6.0.2",
+    "serve": "^11.0.2"
+  }
+}
